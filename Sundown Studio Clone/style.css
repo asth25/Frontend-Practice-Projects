@@ -1,7 +1,12 @@
+@font-face {
+    font-family: neue;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: neue;
 }
 html,
 body {
@@ -37,6 +42,7 @@ nav .nav-part2 {
   position: relative;
   transition: all ease 0.4s;
   overflow: hidden;
+  font-family: neue;
 }
 .nav-part2 h4::after {
   content: "";
@@ -63,3 +69,16 @@ nav .nav-part2 {
     color: white;
 }
 
+#center{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+#center #left h3{
+    width: 30vw;
+    font-size: 2vw;
+    font-family: ;
+}
