@@ -76,16 +76,17 @@ nav .nav-part2 {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  border-bottom: 1px solid #efeae3;
+  border-bottom: 1px solid #cac7c2;
   padding-bottom: 2.5vw;
 }
 #center .left h3 {
   width: 25vw;
   font-size: 1.8vw;
   line-height: 2vw;
+  font-weight: 800;
 }
 #center .right h1 {
-  font-size: 9vw;
+  font-size: 10vw;
   line-height:8vw;
   text-align: right;
 }
