@@ -15,7 +15,7 @@ body {
 }
 
 #page1 {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #efeae3;
   position: relative;
@@ -89,4 +89,53 @@ nav .nav-part2 {
   font-size: 10vw;
   line-height:8vw;
   text-align: right;
+}
+#page1 video{
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 4vw;
+}
+#hero-shape{
+  position: absolute;
+  width: 46vw;
+  height: 36vw;
+  right: 0;
+  top: 65vh;
+  /* filter: blur(20px); */
+}
+.hero1{
+  height: 100%;
+  width: 100%;
+  background-color: #FE330A;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  filter: blur(20px);
+  position: absolute;
+
+}
+.hero2{
+  height: 30vw;
+  width: 30vw;
+  background-color: #FE330A;
+  filter: blur(20px);
+  border-radius: 50%;
+  position: absolute;
+
+}
+.hero3{
+  height: 30vw;
+  width: 30vw;
+  background-color: #FE330A;
+  filter: blur(20px);
+  border-radius: 50%;
+  position: absolute;
+  animation: anime1 3s linear infinite alternate;
+}
+@keyframes anime1 {
+  from{
+    transform: translate(10%,-10%);
+  }
+  to{
+     transform: translate(10%,-10%);
+  }
 }
