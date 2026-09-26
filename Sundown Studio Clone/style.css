@@ -125,7 +125,7 @@ nav .nav-part2 {
 .hero3{
   height: 30vw;
   width: 30vw;
-  background-color: #FE330A;
+  background-color: linear-gradient(#FE330A,#fe570a);
   filter: blur(20px);
   border-radius: 50%;
   position: absolute;
@@ -133,9 +133,9 @@ nav .nav-part2 {
 }
 @keyframes anime1 {
   from{
-    transform: translate(10%,-10%);
+    transform: translate(55%,-2%);
   }
   to{
-     transform: translate(10%,-10%);
+     transform: translate(0%,-10%);
   }
 }
