@@ -109,33 +109,42 @@ nav .nav-part2 {
   background-color: #FE330A;
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
-  filter: blur(20px);
+  filter: blur(10px);
   position: absolute;
 
 }
 .hero2{
   height: 30vw;
   width: 30vw;
-  background-color: #FE330A;
-  filter: blur(20px);
+    background-color: linear-gradient(#FE330A,#f95a11);
+  filter: blur(25px);
   border-radius: 50%;
   position: absolute;
+  animation: anime2 4s linear infinite alternate;
 
 }
 .hero3{
   height: 30vw;
   width: 30vw;
-  background-color: linear-gradient(#FE330A,#fe570a);
-  filter: blur(20px);
+  background-color: linear-gradient(#FE330A,#f95a11);
+  filter: blur(25px);
   border-radius: 50%;
   position: absolute;
-  animation: anime1 3s linear infinite alternate;
+  animation: anime1 4s linear infinite alternate;
 }
 @keyframes anime1 {
   from{
     transform: translate(55%,-2%);
   }
   to{
-     transform: translate(0%,-10%);
+     transform: translate(0%,10%);
+  }
+}
+@keyframes anime2 {
+  from{
+    transform: translate(5%,-5%);
+  }
+  to{
+     transform: translate(-20%,30%);
   }
 }
