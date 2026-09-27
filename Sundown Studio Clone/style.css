@@ -91,6 +91,7 @@ nav .nav-part2 {
   text-align: right;
 }
 #page1 video{
+  position: relative;
   width: 100%;
   border-radius: 30px;
   margin-top: 4vw;
