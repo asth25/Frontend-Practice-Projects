@@ -170,8 +170,13 @@ nav .nav-part2 {
 .con {
     white-space: nowrap;
     display: inline-block;
-    animation-name: move;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation: move 10s linear infinite;
+}
+#gola {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FE320A;
+    margin: 1vw 2vw;
 }
