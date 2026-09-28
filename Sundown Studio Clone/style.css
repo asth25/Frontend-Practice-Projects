@@ -167,6 +167,12 @@ nav .nav-part2 {
     display: none;
 }
 
+#moving-text h1 {
+    font-size: 9vw;
+    /* background-color: lightblue; */
+    display: inline-block;
+}
+
 .con {
     white-space: nowrap;
     display: inline-block;
@@ -179,4 +185,13 @@ nav .nav-part2 {
     display: inline-block;
     background-color: #FE320A;
     margin: 1vw 2vw;
+}
+@keyframes move {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+
+  }
 }
