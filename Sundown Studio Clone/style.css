@@ -229,22 +229,24 @@ nav .nav-part2 {
   margin-top: 2vw;
 }
 #page2 #gooey {
-  height: 30vw;
-  width: 30vw;
+  height: 32vw;
+  width: 32vw;
   position: absolute;
   border-radius: 50%;
   background: linear-gradient(to top right, #fe330a, #f96211);
   top: 58%;
   left: 25%;
   filter: blur(25px);
-  animation: gooey 4s infinite linear alternate;
+  animation: gooey 5s infinite ease-in-out alternate;
 }
 @keyframes gooey {
   from {
-    transform: translate(10%, -10%);
+  filter: blur(25px);
+    transform: translate(10%, -10%)skew(0);
   }
   to {
-    transform: translate(-10%, 10%);
+  filter: blur(30px);
+    transform: translate(-10%, 10%) skew(-12deg);
   }
 }
 #page3 {
