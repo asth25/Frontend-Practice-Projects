@@ -277,8 +277,8 @@ nav .nav-part2 {
   position: absolute;
   left: 0;
   top: -100%;
-  transition: all ease 0.25s;
+  transition: all ease 0.2s;
 }
-.elem .overlay:hover {
+.elem:hover .overlay {
   top: 0;
 }
