@@ -282,3 +282,17 @@ nav .nav-part2 {
 .elem:hover .overlay {
   top: 0;
 }
+
+#fixed-img{
+  height: 30vw;
+  width: 24vw;
+  background-color: aqua;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 9;
+  left: 50%;
+  top: 25%;
+  display: none;
+  background-size: cover;
+  background-position: center;
+}
