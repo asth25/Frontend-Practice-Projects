@@ -286,7 +286,6 @@ nav .nav-part2 {
 #fixed-img{
   height: 30vw;
   width: 24vw;
-  background-color: aqua;
   border-radius: 10px;
   position: fixed;
   z-index: 9;
